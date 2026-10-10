@@ -18,6 +18,6 @@ dev = [
 ]
 
 [tool.maturin]
-manifest-path = "crates/intervals-python/Cargo.toml"
-python-source = "python"
+manifest-path = "crates/proxima-python/Cargo.toml"
+python-source = "crates/python"
 module-name = "intervals._native"
