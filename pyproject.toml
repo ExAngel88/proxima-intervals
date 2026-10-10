@@ -19,5 +19,5 @@ dev = [
 
 [tool.maturin]
 manifest-path = "crates/proxima-python/Cargo.toml"
-python-source = "crates/python"
+python-source = "python"
 module-name = "intervals._native"
