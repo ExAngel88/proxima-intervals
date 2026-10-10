@@ -1,0 +1,23 @@
+[project]
+name = "proxima-intervals"
+version = "0.1.0"
+description = "High-performance interval arithmetic and interval sets in Rust with Python bindings, featuring configurable tolerance-based merging of nearby ranges."
+license = "Apache-2.0"
+
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[dependency-groups]
+dev = [
+    "maturin>=1.15.0",
+    "pytest>=9.1.1",
+]
+
+[tool.maturin]
+manifest-path = "crates/intervals-python/Cargo.toml"
+python-source = "python"
+module-name = "intervals._native"

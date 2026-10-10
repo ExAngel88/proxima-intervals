@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "crates/proxima-intervals",
+    "crates/proxima-python",
+]
+resolver = "3"

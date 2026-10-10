@@ -1,0 +1,14 @@
+[package]
+name = "proxima-python"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+
+[lib]
+name = "proxima_python"
+crate-type = ["cdylib"]
+
+[dependencies]
+proxima-intervals = { path = "../proxima-intervals" }
+pyo3 = "0.29"
