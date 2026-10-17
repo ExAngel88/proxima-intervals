@@ -11,4 +11,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 proxima-intervals = { path = "../proxima-intervals" }
-pyo3 = "0.29"
+pyo3 = "0.30"
